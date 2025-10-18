@@ -7,7 +7,7 @@ interface Usuario {
 
 function promoverUsuario(user: Usuario) {
   user.isAdmin = true;
-  console.log(`Promovendo ${user.nome}...`);
+  console.log(`Promovendo aa${user.nome}...`);
   console.log(user);
 }
 
